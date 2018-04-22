@@ -11,13 +11,12 @@ namespace WpfApplication1
     public class DataBaseForStudents
     {
         public DataBaseForStudents() { }
-        public DataBaseForStudents(string fio, string age, string fak, string direction, int skill, int course, string expirience)
+        public DataBaseForStudents(string fio, string age, string fak, string direction, int course, string expirience)
         {
             this.fio = fio;
             this.age = age;
             this.fak = fak;
             this.direction = direction;
-            this.skill = skill;
             this.course = course;
             this.expirience = expirience;
         }
@@ -25,7 +24,6 @@ namespace WpfApplication1
         public string age { get; set; }
         public string fak { get; set; }
         public string direction { get; set; }
-        public int skill { get; set; }
         public int course { get; set; }
         public string expirience { get; set; }
     }
